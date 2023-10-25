@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <math.h>
 
 int main() {
     while (1) {
@@ -7,7 +8,7 @@ int main() {
         if (count < 1) {
             break;
         }
-        printf("%d\n", n * n);
+        printf("%lf\n", pow(n, 2));
     }
     return 0;
 }
